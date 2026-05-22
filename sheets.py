@@ -21,3 +21,4 @@ def salvar(dados):
         print(f"✅ Dados de '{dados['nome']}' salvos com sucesso!")
     except Exception as e:
         print(f"❌ Erro ao salvar: {e}")
+        
