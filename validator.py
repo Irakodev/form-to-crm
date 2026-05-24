@@ -5,15 +5,15 @@ CAMPOS = ["nome", "email", "empresa", "mensagem"]
 def validar(dados):
     for campo in CAMPOS:
         if campo not in dados:
-            print(f"❌ Campo '{campo}' está faltando.")
+            print(f"Field '{campo}' is missing.")
             return False
         if not dados[campo].strip():
-            print(f"❌ Campo '{campo}' está vazio.")
+            print(f"Field '{campo}' is empty.")
             return False
 
     if "@" not in dados["email"]:
-        print("❌ Email inválido.")
+        print("Invalid email.")
         return False
 
-    print("✅ Dados válidos!")
+    print("Valid data!")
     return True

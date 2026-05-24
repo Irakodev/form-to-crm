@@ -18,7 +18,7 @@ def salvar(dados):
         planilha = conectar()
         linha = [dados["nome"], dados["email"], dados["empresa"], dados["mensagem"]]
         planilha.append_row(linha)
-        print(f"✅ Dados de '{dados['nome']}' salvos com sucesso!")
+        print(f"✅ '{dados['nome']}' data saved successfully!")
     except Exception as e:
-        print(f"❌ Erro ao salvar: {e}")
+        print(f"❌ Error saving data: {e}")
         
