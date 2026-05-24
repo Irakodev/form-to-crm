@@ -3,10 +3,10 @@ from sheets import salvar
 
 # Dados simulando um formulário preenchido
 dados = {
-    "nome": "João Silva",
-    "email": "joao@email.com",
-    "empresa": "Empresa XYZ",
-    "mensagem": "Gostaria de mais informações."
+    "nome": "John Smith",
+    "email": "john@techcorp.com",
+    "empresa": "TechCorp Inc.",
+    "mensagem": "I would like to learn more about your services."
 }
 
 def processar_formulario(dados):
